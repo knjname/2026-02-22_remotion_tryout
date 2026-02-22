@@ -1,0 +1,9 @@
+[
+  { "text": "こんにちは！ずんだもんなのだ！今日はRemotionを使った動画制作入門を説明するのだ！", "speaker": 3 },
+  { "text": "RemotionはReactで動画が作れる、すごいライブラリなのだ！", "speaker": 3 },
+  { "text": "TypeScriptで書けるから、型安全に動画が作れるのだ！", "speaker": 3 },
+  { "text": "useCurrentFrameというフックで、今のフレーム番号が取れるのだ！これがアニメーションの基本なのだ！", "speaker": 3 },
+  { "text": "interpolateを使うと、フレームに合わせて値を変化させられるのだ！", "speaker": 3 },
+  { "text": "pnpm startでStudioが起動して、ブラウザでプレビューできるのだ！", "speaker": 3 },
+  { "text": "さあ、Remotionで素晴らしい動画を作るのだ！", "speaker": 3 }
+]
