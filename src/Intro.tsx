@@ -331,6 +331,9 @@ const Scene6: React.FC = () => {
           <div style={{ fontSize: 30, color: "rgba(255,255,255,0.4)", marginTop: 20 }}>
             Happy Video Making with ずんだもん
           </div>
+          <div style={{ fontSize: 28, color: "rgba(255,255,255,0.7)", marginTop: 32, letterSpacing: 1 }}>
+            VOICEVOX:ずんだもん
+          </div>
         </div>
       </AbsoluteFill>
     </AbsoluteFill>
@@ -343,7 +346,7 @@ const SCENES = [Scene0, Scene1, Scene2, Scene3, Scene4, Scene5, Scene6];
 
 export const Intro: React.FC = () => (
   <AbsoluteFill style={{ background: BG, fontFamily: "sans-serif" }}>
-    {segments.map((seg, i) => {
+{segments.map((seg, i) => {
       const Scene = SCENES[i];
       return (
         <Sequence key={i} from={seg.startFrame} durationInFrames={seg.durationFrames + GAP_FRAMES}>
